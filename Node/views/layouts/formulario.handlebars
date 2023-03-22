@@ -6,31 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fomluario</title>
-   
+
 </head>
 
 <style>
-    .divFormulario{
+    .divFormulario {
         margin-top: 100px;
+        margin-left: 550px;
+        background-color: aliceblue;
+        width: 250px;
+        padding: 12px;
     }
-
-
 </style>
 
-<body>
+<body
+    style="background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-vetor-de-bandeira-de-orgulho-bigenero_53876-105748.jpg?w=826&t=st=1679240786~exp=1679241386~hmac=37612a543519976503ea2eddba28b2089fccd966754cbf5f7f82580939a31144'); background-size:cover">
 
-    <div class="divFormulario" >
-        <center>
-        
-            <form action="/add" method="post">
-                <p>Titulo:</p>
-                <input type="text" name="titulo">
-                <p>Conteúdo:</p>
-                <textarea name="conteudo"></textarea> <br>
-                <button type="submit"> Cadastrar postagem</button>
-            </form>
-        </center>
-        
+
+    <div class="divFormulario">
+
+        <form action="/add" method="post">
+            <h1>Titulo:</h1>
+            <input type="text" name="titulo">
+            <p>Conteúdo:</p>
+            <textarea style="width: 247px; height: 258px;" name="conteudo"></textarea> <br>
+            <button type="submit"> Cadastrar postagem</button>
+        </form>
+
     </div>
 </body>
 
